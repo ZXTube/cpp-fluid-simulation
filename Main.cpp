@@ -20,8 +20,8 @@ sf::Time dt;
 
 sf::RenderWindow window(sf::VideoMode(0, 0), "MY Physics Engine!",
                         sf::Style::Fullscreen);
-sf::Vector2u size = window.getSize();
-Vec2 WINDOW_SIZE = Vec2(size.x, size.y);
+sf::Vector2u windowSize = window.getSize();
+Vec2 WINDOW_SIZE = Vec2(windowSize.x, windowSize.y);
 
 struct Slider {
   sf::RectangleShape middleRect;
